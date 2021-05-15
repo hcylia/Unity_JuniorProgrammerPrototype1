@@ -6,7 +6,7 @@ public class ViewCameraController : MonoBehaviour
 {
     public Camera topView;
     public Camera playerView;
-    public string changeCamera;
+    public KeyCode changeCamera;
     private float lastFrame;
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class ViewCameraController : MonoBehaviour
         if (Time.frameCount - lastFrame > 5)
         {
             lastFrame = Time.frameCount;
-            if (Input.GetKey(changeCamera))
+            if (Input.GetKeyDown(changeCamera))
             {
                 topView.enabled = !topView.enabled;
                 playerView.enabled = !playerView.enabled;

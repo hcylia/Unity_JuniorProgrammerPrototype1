@@ -3340,7 +3340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topView: {fileID: 784421613}
   playerView: {fileID: 187556977}
-  changeCamera: m
+  changeCamera: 109
 --- !u!114 &431336294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4168,7 +4168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topView: {fileID: 704985276}
   playerView: {fileID: 1526948581}
-  changeCamera: c
+  changeCamera: 99
 --- !u!1001 &556250164
 PrefabInstance:
   m_ObjectHideFlags: 0
